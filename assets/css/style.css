@@ -17,7 +17,7 @@ header {
   padding: 10px;
 }
 
-header h1 {
+#navBar h1 {
   display: inline-block;
   color: white;
   background-color: var(--main-colour);
@@ -25,21 +25,21 @@ header h1 {
   width: 18%;
 }
 
-.page-wrapper {
+#navigation {
   display: flex;
   float: right;
-}
-
-.page-section {
-  color: black;
-  justify-content: space-between;
+  width: 50%;
+  align-items: end;
+  justify-content: space-evenly;
+  color: white;
+  background-color: var(--main-colour);
 }
 
 .hero-banner {
-  height: 800px;
+  height: 300px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("./assets/images/02-hero-bg.jpg");
+  background-image: url("../assets/images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -51,6 +51,20 @@ header h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+#catergoryGrid {
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: 
+  "sr"
+  "lw      cal"
+  "pastel  runbud";
+}
+
+#surf-report {
+  grid-area: sr;
+  background-image: url("");
 }
 
 h1,
