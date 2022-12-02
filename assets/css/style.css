@@ -23,6 +23,12 @@ h1 {
   width: 18%;
 }
 
+.page-wrapper {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
 h1,
 h2,
 h3,
