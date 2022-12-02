@@ -17,16 +17,40 @@ header {
   padding: 10px;
 }
 
-h1 {
+header h1 {
+  display: inline-block;
   color: white;
   background-color: var(--main-colour);
+  font-size: 30px;
   width: 18%;
 }
 
 .page-wrapper {
   display: flex;
   float: right;
+}
+
+.page-section {
+  color: black;
   justify-content: space-between;
+}
+
+.hero-banner {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("./assets/images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-banner h2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
 h1,
