@@ -39,7 +39,7 @@ header {
   height: 300px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../assets/images/02-hero-bg.jpg");
+  background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -64,7 +64,7 @@ header {
 
 #surf-report {
   grid-area: sr;
-  background-image: url("");
+  background-image: url("../images/02-hero-bg.jpg");
 }
 
 h1,
