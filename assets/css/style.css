@@ -53,7 +53,27 @@ header {
   color: white;
 }
 
-.subheading1 {
+.page-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 {
+  width: 50%;
+  text-align: right;
+  flex: 1;
+  margin: 20px;
+}
+
+.column2 {
+  width: 50%;
+  text-align: left;
+  flex: 2;
+  margin: 20px;
+}
+
+
+/* .subheading1 {
   grid-area: subheading1;
 }
 
@@ -69,34 +89,22 @@ header {
   grid-area: paragraph;
 }
 
-
 .contact-details {
   grid-area: contact-details;
 }
 
-.page-section {
-  display: grid;
-  margin: 0px 20px 0px 20px;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-areas: 
-  "subheading1   paragraph"
-  "subheading2   categoryGrid"
-  "subheading3   contact-details";
-}
-
 #catergoryGrid {
   display: grid;
-  grid-area: categoryGrid;
-  grid-template-columns: 1fr 1fr;
+  grid-area: categoryGrid; */
+  /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
   grid-template-areas: 
-  "sr"
+  "sr      sr"
   "lw      cal"
   "pastel  runbud";
-}
+} */
 
-.categoryGridArea {
+/* .categoryGridArea {
   max-width: 1fr;
   height: 100px;
   background-size: contain;
@@ -126,7 +134,7 @@ header {
 #run-buddy {
   grid-area: runbud;
   background-image: url("../images/02-portfolio-4.jpg");
-}
+} */
 
 
 
