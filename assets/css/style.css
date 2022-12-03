@@ -22,14 +22,14 @@ header {
   color: white;
   background-color: var(--main-colour);
   font-size: 30px;
-  width: 18%;
+  padding: 10px;
 }
 
 #navigation {
   display: flex;
   float: right;
-  width: 50%;
-  align-items: end;
+  width: 40%;
+  padding: 10px;
   justify-content: space-evenly;
   color: white;
   background-color: var(--main-colour);
@@ -50,22 +50,85 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
+}
+
+.subheading1 {
+  grid-area: subheading1;
+}
+
+.subheading2 {
+  grid-area: subheading2;
+}
+
+.subheading3 {
+  grid-area: subheading3;
+}
+
+.paragraph {
+  grid-area: paragraph;
+}
+
+
+.contact-details {
+  grid-area: contact-details;
+}
+
+.page-section {
+  display: grid;
+  margin: 0px 20px 0px 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas: 
+  "subheading1   paragraph"
+  "subheading2   categoryGrid"
+  "subheading3   contact-details";
 }
 
 #catergoryGrid {
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
+  display: grid;
+  grid-area: categoryGrid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
   grid-template-areas: 
   "sr"
   "lw      cal"
   "pastel  runbud";
 }
 
+.categoryGridArea {
+  max-width: 1fr;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 #surf-report {
   grid-area: sr;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
+
+#led-wall {
+  grid-area: lw;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#calculator {
+  grid-area: cal;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#pastel-puzzles {
+  grid-area: pastel;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#run-buddy {
+  grid-area: runbud;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+
 
 h1,
 h2,
