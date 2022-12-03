@@ -73,70 +73,35 @@ header {
   margin: 20px;
 }
 
-
-/* .subheading1 {
-  grid-area: subheading1;
-}
-
-.subheading2 {
-  grid-area: subheading2;
-}
-
-.subheading3 {
-  grid-area: subheading3;
-}
-
-.paragraph {
-  grid-area: paragraph;
-}
-
-.contact-details {
-  grid-area: contact-details;
-}
-
-#catergoryGrid {
+#workGrid {
   display: grid;
-  grid-area: categoryGrid; */
-  /* grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
   grid-template-areas: 
   "sr      sr"
   "lw      cal"
   "pastel  runbud";
-} */
-
-/* .categoryGridArea {
-  max-width: 1fr;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 #surf-report {
   grid-area: sr;
-  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #led-wall {
   grid-area: lw;
-  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #calculator {
   grid-area: cal;
-  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #pastel-puzzles {
   grid-area: pastel;
-  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #run-buddy {
   grid-area: runbud;
-  background-image: url("../images/02-portfolio-4.jpg");
-} */
-
+}
 
 
 h1,
