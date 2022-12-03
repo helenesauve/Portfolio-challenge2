@@ -17,6 +17,7 @@ header {
   padding: 10px;
 }
 
+/* Navigation */
 #navBar h1 {
   display: inline-block;
   color: white;
@@ -35,6 +36,7 @@ header {
   background-color: var(--main-colour);
 }
 
+/* Hero */
 .hero-banner {
   height: 300px;
   width: 100%;
@@ -73,6 +75,8 @@ header {
   margin: 20px;
 }
 
+/* Work Grid */
+
 #workGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -85,24 +89,30 @@ header {
 
 #surf-report {
   grid-area: sr;
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #led-wall {
   grid-area: lw;
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #calculator {
   grid-area: cal;
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #pastel-puzzles {
   grid-area: pastel;
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 
 #run-buddy {
   grid-area: runbud;
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
+/* Contact */
 
 h1,
 h2,
