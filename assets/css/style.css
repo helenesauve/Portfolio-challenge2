@@ -129,7 +129,14 @@ header {
   color: white;
 } 
 
+#contact-details a:link {
+  color: black;
+}
 
+/* mouse over link */
+#contact-details a:hover {
+  background-color: lightblue;
+}
 
 h1,
 h2,
