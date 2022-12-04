@@ -112,6 +112,12 @@ header {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
+.categoryGridArea {
+  height: auto;
+  width: auto;
+  border: 2px white solid;
+}
+
 /* Contact */
 
 h1,
