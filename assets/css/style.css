@@ -73,6 +73,8 @@ header {
   text-align: left;
   flex: 2;
   margin: 20px;
+  border-left: 6px solid black;
+  padding: 20px;
 }
 
 #about img{
@@ -134,7 +136,6 @@ header {
   display: flex;
   float: right;
   width: 40%;
-  padding: 10px;
   justify-content: space-evenly;
   color: white;
 } 
