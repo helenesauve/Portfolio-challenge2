@@ -75,8 +75,11 @@ header {
   margin: 20px;
 }
 
+#about img{
+  height: 250px;
+}
 
-/* Work Grid */
+/* Portfolio container */
 
 #workGrid {
   display: grid;
@@ -117,6 +120,12 @@ header {
   height: auto;
   width: auto;
   border: 2px white solid;
+}
+
+#workGrid a {
+  background-color: lightblue;
+  text-decoration: none;
+  color: black;
 }
 
 /* Contact */
