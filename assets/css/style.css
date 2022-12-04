@@ -120,6 +120,17 @@ header {
 
 /* Contact */
 
+#contact-details {
+  display: flex;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  justify-content: space-evenly;
+  color: white;
+} 
+
+
+
 h1,
 h2,
 h3,
