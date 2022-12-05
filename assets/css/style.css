@@ -108,8 +108,14 @@ ul {
   padding: 20px;
 }
 
-#about img {
+.about-section img {
   height: 250px;
+  float: left;
+  padding: 10px;
+}
+
+.about-section p {
+  display: inline;
 }
 
 /* Portfolio container */
@@ -181,9 +187,8 @@ ul {
   padding: 10px;
 }
 
-/* mouse over link */
 #contact-details a:hover {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 /* website responsiveness */
