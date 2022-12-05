@@ -21,14 +21,17 @@ header {
 /* Navigation */
 h1 {
   display: inline-block;
-  color: white;
-  text-decoration: none;
   background-color: var(--main-colour);
   font-size: 30px;
   padding: 10px;
 }
 
-header nav {
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.header nav {
   display: flex;
   float: right;
   width: 40%;
@@ -39,18 +42,22 @@ header nav {
   background-color: var(--main-colour);
 }
 
-header nav ul {
+.header nav ul {
   list-style-type: none;
 }
 
-header nav ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
-nav a {
+.header nav a {
   color: white;
   text-decoration: none;
+}
+
+.header nav a:hover {
+  background-color: green;
 }
 
 /* Hero */
