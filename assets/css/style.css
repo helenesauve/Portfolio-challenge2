@@ -191,6 +191,18 @@ ul {
   .page-section {
     flex-direction: column;
   }
+  #workGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas:
+      "sr"
+      "lw"
+      "cal"
+      "pastel"  
+      "runbud";
+  }
+  
 }
 
 h1,
