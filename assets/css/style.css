@@ -204,7 +204,14 @@ ul {
 
   .about-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column
+  }
+  .about-section img {
+    flex: 1;
+  }
+
+  .about-section p {
+    flex: 2;
   }
 
   .column-right {
