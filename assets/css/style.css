@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
-  --main-colour: orange; 
+  --main-colour: orange;
 }
 
 body {
@@ -18,29 +19,38 @@ header {
 }
 
 /* Navigation */
-#navBar h1 {
+h1 {
   display: inline-block;
   color: white;
+  text-decoration: none;
   background-color: var(--main-colour);
   font-size: 30px;
   padding: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#navigation ul {
+header nav {
   display: flex;
   float: right;
   width: 40%;
-  padding: 10px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 0px;
   color: white;
+  font-size: 20px;
   background-color: var(--main-colour);
 }
 
-ul {
+header nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Hero */
@@ -84,7 +94,7 @@ ul {
   padding: 20px;
 }
 
-#about img{
+#about img {
   height: 250px;
 }
 
@@ -94,10 +104,10 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
-  grid-template-areas: 
-  "sr      sr"
-  "lw      cal"
-  "pastel  runbud";
+  grid-template-areas:
+    "sr      sr"
+    "lw      cal"
+    "pastel  runbud";
 }
 
 #surf-report {
@@ -145,7 +155,7 @@ ul {
   width: 40%;
   justify-content: space-evenly;
   color: white;
-} 
+}
 
 #contact-details a:link {
   color: black;
@@ -160,7 +170,7 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #navigation ul {
-      display: inline-block;
+    display: inline-block;
   }
 }
 
@@ -176,4 +186,3 @@ h6 {
 p {
   margin: 0;
 }
-
