@@ -201,6 +201,12 @@ ul {
   .page-section {
     flex-direction: column;
   }
+
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .column-right {
     display: flex;
     flex-direction: column;
