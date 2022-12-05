@@ -196,6 +196,12 @@ ul {
   .page-section {
     flex-direction: column;
   }
+  .column-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: none;
+  }
 
   #workGrid {
     display: grid;
