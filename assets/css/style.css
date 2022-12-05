@@ -13,13 +13,14 @@ body {
   line-height: 1.5;
 }
 
+/* header */
+
 header {
   background-color: gray;
   padding: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Navigation */
 h1 {
   display: inline-block;
   background-color: var(--main-colour);
@@ -80,6 +81,8 @@ ul {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* page wrapper section */
 
 .page-section {
   display: flex;
@@ -182,7 +185,10 @@ ul {
 /* website responsiveness */
 
 @media only screen and (max-width: 600px) {
-  ul {
+  ul li {
+    flex-direction: column;
+  }
+  .page-section {
     flex-direction: column;
   }
 }
