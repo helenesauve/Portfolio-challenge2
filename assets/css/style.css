@@ -24,9 +24,10 @@ header {
   background-color: var(--main-colour);
   font-size: 30px;
   padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#navigation {
+#navigation ul {
   display: flex;
   float: right;
   width: 40%;
@@ -34,6 +35,12 @@ header {
   justify-content: space-evenly;
   color: white;
   background-color: var(--main-colour);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Hero */
@@ -149,6 +156,14 @@ header {
   background-color: grey;
 }
 
+/* website responsiveness */
+
+@media only screen and (max-width: 600px) {
+  #navigation ul {
+      display: inline-block;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -161,3 +176,4 @@ h6 {
 p {
   margin: 0;
 }
+
