@@ -165,10 +165,11 @@ ul {
 
 .categoryGridArea {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   height: auto;
   width: auto;
   border: 2px white solid;
+  position: relative;
 }
 
 .categoryGridArea h2 {
@@ -178,15 +179,17 @@ ul {
   padding: 5px;
 }
 
-#work a {
+.categoryGridArea a {
   text-decoration: none;
   position: absolute;
   height: 100%;
   width: 100%;
 }
-#work a:hover{
+
+.categoryGridArea a:hover{
   cursor: pointer
 }
+
 /* Contact */
 
 #contact-details {
@@ -197,10 +200,6 @@ ul {
   color: white;
 }
 
-#contact-details a:link {
-  color: black;
-}
-
 #contact-details ul {
   width: 100%;
 }
@@ -208,6 +207,10 @@ ul {
 #contact-details ul li {
   display: inline-block;
   padding: 10px;
+}
+
+#contact-details a:link {
+  color: black;
 }
 
 #contact-details a:hover {
