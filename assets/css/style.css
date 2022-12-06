@@ -186,7 +186,7 @@ ul {
   width: 100%;
 }
 
-.categoryGridArea a:hover{
+.categoryGridArea a:hover {
   cursor: pointer
 }
 
@@ -235,6 +235,7 @@ ul {
     display: flex;
     flex-direction: column
   }
+
   .about-section img {
     flex: 1;
   }
@@ -258,12 +259,14 @@ ul {
       "sr"
       "lw"
       "cal"
-      "pastel"  
+      "pastel"
       "runbud";
   }
+
   h1 {
     font-size: 25px;
   }
+
   .header nav {
     display: flex;
     flex-direction: column;
@@ -271,4 +274,3 @@ ul {
     padding: 0;
   }
 }
-
