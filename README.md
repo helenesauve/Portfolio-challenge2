@@ -15,7 +15,7 @@ For this project, I used the CSS:
 
 ### Deployment: 
 
-The website can be viewed [here.](https://helenesauve.github.io/Portfolio-challenge2/)
+The website can be viewed [here.](https://helenesauve.github.io/Professional_Portfolio/)
 
 The page resembles the below screenshot:
 
