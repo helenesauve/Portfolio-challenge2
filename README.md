@@ -12,11 +12,6 @@ For this project, I used the CSS:
 
 - media queries: to make sure the website is responsive when viewed from different devices.
 
-The final project needs to resemble the below gif but can have its own images and colours.
-
-![portfolio demo](assets/images/01-css-challenge-demo.gif)
-
-
 
 ### Deployment: 
 
