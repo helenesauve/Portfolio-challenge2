@@ -21,3 +21,7 @@ The final project needs to resemble the below gif but can have its own images an
 ### Deployment: 
 
 The website can be viewed [here.](https://helenesauve.github.io/Portfolio-challenge2/)
+
+The page resembles the below screenshot:
+
+![Webpage demo](assets/images/webpage-screenshot.png)
